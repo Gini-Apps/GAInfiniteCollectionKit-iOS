@@ -18,6 +18,11 @@
   <img src = "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS/blob/master/Documents/InfiniteCollectionKit.gif">
 </p>
 
+<p align="center">
+	<a href="http://goo.gl/KXw4nD"><img src="./Documents/appetize.png" /></a>
+</p>
+
+
 #### Table of Contents  
 1. [Requirements](#requirements)
 2. [Installation](#installation)
