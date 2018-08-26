@@ -1,0 +1,6 @@
+framework module GAInfiniteCollectionKit_iOS {
+  umbrella header "GAInfiniteCollectionKit-iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

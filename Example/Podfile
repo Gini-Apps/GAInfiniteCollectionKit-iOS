@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GAInfiniteCollectionKit-iOS_Example' do
+  pod 'GAInfiniteCollectionKit-iOS', :path => '../'
+
+  target 'GAInfiniteCollectionKit-iOS_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
