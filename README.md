@@ -1,7 +1,7 @@
 <h1 align="center">
   <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://cdn.xplace.com/companyLogo/u/e/uedrxh.png" alt="Markdownify" width="200"></a>
   <br>
-  InfiniteCollectionKit-iOS
+  GAInfiniteCollectionKit-iOS
   <br>
 </h1>
 
