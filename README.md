@@ -1,0 +1,1 @@
+# GAInfiniteCollectionKit-iOS
