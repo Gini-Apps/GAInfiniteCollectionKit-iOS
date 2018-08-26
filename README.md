@@ -8,8 +8,9 @@
 <h4 align="center">Give your collection view the infinite scrolling behavior.</h4>
 
 <p align="center">
+  <img alt="Sponsor" src="https://img.shields.io/badge/sponsor-Gini--Apps-brightgreen.svg">
   <img alt="Version" src="https://img.shields.io/badge/pod-v1.0.0-blue.svg">
-  <img alt="Author" src="https://img.shields.io/badge/author-Ido Meirov-brightgreen.svg">
+  <img alt="Author" src="https://img.shields.io/badge/author-Ido Meirov-yellow.svg">
   <img alt="Swift" src="https://img.shields.io/badge/swift-4.1%2B-orange.svg">
   <img alt="Swift" src="https://img.shields.io/badge/platform-ios-lightgrey.svg">
 </p>
