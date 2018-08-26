@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  <img src = "https://github.com/shay-somech/InfiniteCollectionKit-iOS/blob/master/Documents/InfiniteCollectionKit.gif">
+  <img src = "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS/blob/master/Documents/InfiniteCollectionKit.gif">
 </p>
 
 #### Table of Contents  
