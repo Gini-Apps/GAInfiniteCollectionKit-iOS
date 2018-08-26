@@ -19,7 +19,7 @@
 </p>
 
 <p align="center">
-	<a href="http://goo.gl/KXw4nD"><img src="./Documents/appetize.png" /></a>
+	<a href="https://www.cocoacontrols.com/controls/gainfinitecollectionkit-ios-1188a0d0-b0df-4e50-9536-65f4019b0ec0"><img src="./Documents/appetize.png" /></a>
 </p>
 
 
