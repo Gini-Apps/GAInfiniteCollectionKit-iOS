@@ -18,8 +18,18 @@
 </p>
 
 #### Table of Contents  
-1. [How to Use](#howToUse) 
-2. [Advanced uses](#advancedUses) 
+1. [Installation](#installation)
+2. [How to Use](#howToUse) 
+3. [Advanced uses](#advancedUses) 
+
+<a name="installation"/>
+
+# Installation:
+
+### CocoaPods:
+```
+pod GAInfiniteCollectionKit-iOS
+```
 
 <a name="howToUse"/>
 
