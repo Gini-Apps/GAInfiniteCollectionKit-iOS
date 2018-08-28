@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a href="http://www.amitmerchant.com/electron-markdownify"><img src="https://cdn.xplace.com/companyLogo/u/e/uedrxh.png" alt="Markdownify" width="200"></a>
+  <a><img src="https://cdn.xplace.com/companyLogo/u/e/uedrxh.png" alt="Markdownify" width="200"></a>
   <br>
   GAInfiniteCollectionKit-iOS
   <br>
@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-  <img src = "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS/blob/master/Documents/InfiniteCollectionKit.gif">
+  <a href="https://www.cocoacontrols.com/controls/gainfinitecollectionkit-ios-1188a0d0-b0df-4e50-9536-65f4019b0ec0"><img src = "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS/blob/master/Documents/InfiniteCollectionKit.gif"></a>	  
 </p>
 
 <p align="center">
