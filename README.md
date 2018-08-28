@@ -1,5 +1,5 @@
 <h1 align="center">
-  <a><img src="https://cdn.xplace.com/companyLogo/u/e/uedrxh.png" alt="Markdownify" width="200"></a>
+  <img src="https://cdn.xplace.com/companyLogo/u/e/uedrxh.png" alt="Markdownify" width="200">
   <br>
   GAInfiniteCollectionKit-iOS
   <br>
