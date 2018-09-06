@@ -82,7 +82,7 @@ Implement the protocols InfiniteScrollingBehaviorDataSource and InfiniteScrollin
 ### Example: 
 ```swift
 // MARK: - InfiniteScrollingBehaviorDataSource
-extension MyObject : InfiniteScrollingBehaviorDataSource
+extension MyObject : GAInfiniteScrollingBehaviorDataSource
 {
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath, withIndexForItem itemIndex: Int) -> UICollectionViewCell
     {
@@ -99,7 +99,7 @@ extension MyObject : InfiniteScrollingBehaviorDataSource
 }
 
 // MARK: - InfiniteScrollingBehaviorDelegate
-extension MyObject : InfiniteScrollingBehaviorDelegate
+extension MyObject : GAInfiniteScrollingBehaviorDelegate
 {
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath)
     {
