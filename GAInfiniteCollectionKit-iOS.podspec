@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'GAInfiniteCollectionKit-iOS'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Add infinite scrolling to UICollectionView'
 
 # This description is used to generate tags and improve search results.
@@ -26,7 +26,7 @@ DESC
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'idoMeirov' => 'idom@gini-apps.com' }
   s.source           = { :git => 'https://github.com/shay-somech/GAInfiniteCollectionKit-iOS.git', :tag => s.version.to_s }
-  s.swift_version    = '4.1'
+  s.swift_version    = '4.2'
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
  s.frameworks  = 'UIKit'
