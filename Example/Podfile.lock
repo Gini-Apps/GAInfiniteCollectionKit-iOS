@@ -1,5 +1,5 @@
 PODS:
-  - GAInfiniteCollectionKit-iOS (1.0.0)
+  - GAInfiniteCollectionKit-iOS (2.2.0)
 
 DEPENDENCIES:
   - GAInfiniteCollectionKit-iOS (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  GAInfiniteCollectionKit-iOS: c8961585f196d3c0f52901b755ade8c5d3aaa75f
+  GAInfiniteCollectionKit-iOS: b25f1963c67fa8fbbf8c6f1ebbaa049ed2e8b406
 
 PODFILE CHECKSUM: fe05178780b61a7fb835728d7df8fdb6bfdc852f
 
-COCOAPODS: 1.5.3
+COCOAPODS: 1.7.1

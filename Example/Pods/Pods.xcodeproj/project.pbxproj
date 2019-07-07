@@ -7,287 +7,300 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		189D551A4C65456C78C8C7C62CA2EB2E /* GAInfiniteScrollingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8E7115FD012C14C0BDE0E74662E4763 /* GAInfiniteScrollingBehavior.swift */; };
-		2C32A7EF17C47BAF9B6BB01714840D0F /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E94A9DC53824DD76E2DF8B3DD12EA4B /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */; };
-		3BB68F974240C343DB408239A736C139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		59281647015FBDDDEEB687D03565778D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		65E297CEABEAB7834ACEE79D7AAC3F11 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
-		68DA7A3DBF6468BB17D342E34834C03F /* GAInfiniteCollectionKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14E3CAB510B6E3D3FFFCB665E87CF8AE /* GAInfiniteCollectionKit-iOS-dummy.m */; };
-		7B7C0717F8FB8DBF3A4282065C721A59 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD8D07F67709428C36B44BACA579A8E0 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */; };
-		833736D339DBA3F0B33C7E4DC6FA02BA /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A3B5304778B00E806D05D7684566C85 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2B79F1BF6E4B8B0056524B4A1CBEDA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
-		E4F1B49EE43B23EAFB13F06DD38AADD0 /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F6DA6D7DBE8C61A5B6E21C406373348E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDF65478F845A3821BA52114B16459B7 /* GAInfiniteCollectionKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 83130D56A7EB4AA31CA00B650F30C638 /* GAInfiniteCollectionKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B2DB6BF5DDE1EF0B970FFBFCBFF8372 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5114341B8AFCEDB85D4E49B7462DC86B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		5A56CE3826C2C05A84A374F757616BF5 /* GAInfiniteCollectionKit-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B052EBB6D6A01ED9DD2864A07D619175 /* GAInfiniteCollectionKit-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7BCC439E57A8C78B25FBB48E65187842 /* GAInfiniteCollectionKit-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E71BC628014032F897236A19403BC9D6 /* GAInfiniteCollectionKit-iOS-dummy.m */; };
+		9DB5CB40DF2E4882ECBE432D7A99DD7C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		C3A9D1617E1766FAA74C7B3FC96D2F8E /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A48C7C3FE59063C4A84BE7647681F9 /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */; };
+		C9FBEE6702FED6205F40796565FFA015 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AEB70F7B48ED07E7FDC898F06F75A75 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9C2C31BA54C664FED144082A6ACBABB /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EAC77EBE0AE707A135A849DCFEB05313 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */; };
+		E0B6C1283EA82F7E58DF74FC15937B9F /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 946E146531BD8E0742C151DE48DD231E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EF494C53C5F6F9689BE411474CA99E0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		FD699E6D040772C6C8F3A022CB77FCA4 /* GAInfiniteScrollingBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7768A7E25E9CE381D8E807FB7AC3FCC1 /* GAInfiniteScrollingBehavior.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D54EB2B67A4A297711A8B46684E903CA /* PBXContainerItemProxy */ = {
+		06CDBCFEE60C259BCC252EA8F70D06F5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3DFB6259257421B0507D035F9BC04DA9;
+			remoteGlobalIDString = 996EEBBCC5340C1FB77827550E45DA42;
 			remoteInfo = "Pods-GAInfiniteCollectionKit-iOS_Example";
 		};
-		EFACA9AA44803ADEA010D1BEFC2D0A2F /* PBXContainerItemProxy */ = {
+		E9B59D75607CB336F97A9347A69A9A41 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 90861C6C9070ADB08BBD74A2CBFBB314;
+			remoteGlobalIDString = C078E18A32E97B0A0A928974468D7977;
 			remoteInfo = "GAInfiniteCollectionKit-iOS";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0274859314B0BB5274644192FFCBE6E9 /* GAInfiniteCollectionKit-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = "GAInfiniteCollectionKit-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		1442B6BEBF781653D7D0571B208F793D /* Pods-GAInfiniteCollectionKit-iOS_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		14E3CAB510B6E3D3FFFCB665E87CF8AE /* GAInfiniteCollectionKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GAInfiniteCollectionKit-iOS-dummy.m"; sourceTree = "<group>"; };
-		1DEE7ED4FC5109500B002E4E4AE4163E /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		277574591B72B1179EAD7081F19FA22E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A3B5304778B00E806D05D7684566C85 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
-		3117309978BED2BDD74E4A65C9D96F53 /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		349F935EF8D48098F89F10992308987C /* GAInfiniteCollectionKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GAInfiniteCollectionKit-iOS.modulemap"; sourceTree = "<group>"; };
-		4546B4BE904A926A49D897AC0A1A4AFA /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAInfiniteCollectionKit_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4DE9CBFDD532A3B15F3320D2C28E2251 /* GAInfiniteCollectionKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAInfiniteCollectionKit_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5AEE053F0FFDF7F692B3FAC83DC7AD17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		65281C26BD8FFF5C8534822974B9B908 /* Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
-		654E0DF03F4DE96E9D616DE9306B4170 /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6B3BCD040CDCEAFFEBB22A989F64CE70 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		75628FCCD3DE9051ABE37D0E308EF4CB /* Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap"; sourceTree = "<group>"; };
-		7C3F5C700CF126E6767A8B4DA14B1EB9 /* GAInfiniteCollectionKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GAInfiniteCollectionKit-iOS.xcconfig"; sourceTree = "<group>"; };
-		83130D56A7EB4AA31CA00B650F30C638 /* GAInfiniteCollectionKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GAInfiniteCollectionKit-iOS-umbrella.h"; sourceTree = "<group>"; };
-		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		957BDA64A400FD202C15E19DC5B37A24 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAInfiniteCollectionKit_iOS_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E94A9DC53824DD76E2DF8B3DD12EA4B /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
-		A511393E3252F796F02E6AAA6681F384 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A71811A851EDF6A0E5F1FE51863F0262 /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A8E7115FD012C14C0BDE0E74662E4763 /* GAInfiniteScrollingBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GAInfiniteScrollingBehavior.swift; path = "GAInfiniteCollectionKit-iOS/Classes/GAInfiniteScrollingBehavior.swift"; sourceTree = "<group>"; };
-		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		BECA992612E068716FD1CADBD62B768E /* GAInfiniteCollectionKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GAInfiniteCollectionKit-iOS-prefix.pch"; sourceTree = "<group>"; };
-		CD8D07F67709428C36B44BACA579A8E0 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m"; sourceTree = "<group>"; };
-		CDFF6ED848A50AB05AD9FE52C47ECEFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		D2148FCF68799721A65AFA16037AA494 /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		DDAF24AC929F295072530F936C7DD6E1 /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E889F40FB031BB548809AECEE3B0A4EC /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		E9F9786D8F6E6BBD7424A65C902B2DBB /* Pods-GAInfiniteCollectionKit-iOS_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-resources.sh"; sourceTree = "<group>"; };
-		EB98368B6E99628F148966BC6F96B488 /* Pods-GAInfiniteCollectionKit-iOS_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GAInfiniteCollectionKit-iOS_Example-resources.sh"; sourceTree = "<group>"; };
-		F1A1F3C7C4685B5EC1589975D966C1E3 /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F6DA6D7DBE8C61A5B6E21C406373348E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
-		F7D439BE43B1D3F44105923ACDBAE857 /* Pods-GAInfiniteCollectionKit-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GAInfiniteCollectionKit-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		0C17BA0FD943FAEE64C77D5D1C1285BD /* GAInfiniteCollectionKit-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GAInfiniteCollectionKit-iOS.xcconfig"; sourceTree = "<group>"; };
+		0E0F1FFF2E54227DC273EDAC2BD25B44 /* Pods-GAInfiniteCollectionKit-iOS_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-Info.plist"; sourceTree = "<group>"; };
+		16F9FFC7616DF79C34A7E40E319CFF8A /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1AEB70F7B48ED07E7FDC898F06F75A75 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h"; sourceTree = "<group>"; };
+		23A48C7C3FE59063C4A84BE7647681F9 /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m"; sourceTree = "<group>"; };
+		25F818DE230A5BE454955C31489F9606 /* Pods-GAInfiniteCollectionKit-iOS_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Example-Info.plist"; sourceTree = "<group>"; };
+		2C316176511ADB982B8AEC37250D022D /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		346AA2E40B5328985043BE3FDAF14D05 /* Pods-GAInfiniteCollectionKit-iOS_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GAInfiniteCollectionKit-iOS_Example.modulemap"; sourceTree = "<group>"; };
+		35029E324D37B063E65BD4F46FFB390E /* GAInfiniteCollectionKit_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GAInfiniteCollectionKit_iOS.framework; path = "GAInfiniteCollectionKit-iOS.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		365AFF1F156884B0707CD9DBCB9E40EB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3CC9091D3925C5840EF55CD0E96875C1 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GAInfiniteCollectionKit_iOS_Example.framework; path = "Pods-GAInfiniteCollectionKit-iOS_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		411B2D883EC298CC5C27D4C5369DA55D /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		475E323B9937D679A25E9CA6867254F1 /* GAInfiniteCollectionKit-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "GAInfiniteCollectionKit-iOS.modulemap"; sourceTree = "<group>"; };
+		49C36B98E05CA4E0C31F489ABC600397 /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5A1C44D2FDFA713939033CC81BEE76B7 /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GAInfiniteCollectionKit_iOS_Tests.framework; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C23665B887355E308D81C6CD444946E /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		7768A7E25E9CE381D8E807FB7AC3FCC1 /* GAInfiniteScrollingBehavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GAInfiniteScrollingBehavior.swift; path = "GAInfiniteCollectionKit-iOS/Classes/GAInfiniteScrollingBehavior.swift"; sourceTree = "<group>"; };
+		77D31A1305BF8DE24E996B7943E00B2D /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8F72F57E5754C2EE1F2D15714E7D1BFE /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		946E146531BD8E0742C151DE48DD231E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A8294EA003E6AD352305427290A4C29F /* GAInfiniteCollectionKit-iOS.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "GAInfiniteCollectionKit-iOS.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AC5DEDD065ABA1E3620B457FA150B6B9 /* Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap"; sourceTree = "<group>"; };
+		B052EBB6D6A01ED9DD2864A07D619175 /* GAInfiniteCollectionKit-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GAInfiniteCollectionKit-iOS-umbrella.h"; sourceTree = "<group>"; };
+		D08496CFD883623DED91FEDB87ADDD83 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E0507BA0A71D432CD2760318085C9948 /* GAInfiniteCollectionKit-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GAInfiniteCollectionKit-iOS-Info.plist"; sourceTree = "<group>"; };
+		E561FCC12EFBC7945150DC7AEE050B12 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig"; sourceTree = "<group>"; };
+		E71BC628014032F897236A19403BC9D6 /* GAInfiniteCollectionKit-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GAInfiniteCollectionKit-iOS-dummy.m"; sourceTree = "<group>"; };
+		E82568ECAF9E3E6526348D6EE8E3A18C /* Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh"; sourceTree = "<group>"; };
+		EAC77EBE0AE707A135A849DCFEB05313 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m"; sourceTree = "<group>"; };
+		FA95A44C77C8BE2CD61B840C9BA2986D /* GAInfiniteCollectionKit-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GAInfiniteCollectionKit-iOS-prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C528CC4DE6140B432AE5630FB516954B /* Frameworks */ = {
+		075BFFE4FD49CD3603302DC7E4A96D5E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59281647015FBDDDEEB687D03565778D /* Foundation.framework in Frameworks */,
-				65E297CEABEAB7834ACEE79D7AAC3F11 /* UIKit.framework in Frameworks */,
+				9DB5CB40DF2E4882ECBE432D7A99DD7C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E82F399A5DCDDA01342439C8D9847679 /* Frameworks */ = {
+		B6E1B2DDAFA8A168366E8DEF7C1C678B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BB68F974240C343DB408239A736C139 /* Foundation.framework in Frameworks */,
+				5114341B8AFCEDB85D4E49B7462DC86B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EDFAA43463E0F30EE701D9360C292437 /* Frameworks */ = {
+		FA114D1D82F7DECADC5854BE5D26CEF4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2B79F1BF6E4B8B0056524B4A1CBEDA8 /* Foundation.framework in Frameworks */,
+				0B2DB6BF5DDE1EF0B970FFBFCBFF8372 /* Foundation.framework in Frameworks */,
+				EF494C53C5F6F9689BE411474CA99E0E /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		05E7E28DD0A51EE39D463AC0CBC5BAFC /* GAInfiniteCollectionKit-iOS */ = {
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				A8E7115FD012C14C0BDE0E74662E4763 /* GAInfiniteScrollingBehavior.swift */,
-				1246DAF0FC5F8B1251C8AED8A9549763 /* Pod */,
-				434AB52754E45E1DC177C8A869021D6D /* Support Files */,
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1C2AFFEEABFA70F8E5949BD4FB3A2020 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81528145F21D912641952186C09D50B9 /* GAInfiniteCollectionKit-iOS */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		81528145F21D912641952186C09D50B9 /* GAInfiniteCollectionKit-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7768A7E25E9CE381D8E807FB7AC3FCC1 /* GAInfiniteScrollingBehavior.swift */,
+				E25CE7B140D511CBB52BE9AC6EFFE2AA /* Pod */,
+				BA0CBBE065EBB8B023C0EA373FF8536A /* Support Files */,
 			);
 			name = "GAInfiniteCollectionKit-iOS";
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		0697378E6106E4E7D0C9C715C712808F /* Products */ = {
+		BA0CBBE065EBB8B023C0EA373FF8536A /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				4DE9CBFDD532A3B15F3320D2C28E2251 /* GAInfiniteCollectionKit_iOS.framework */,
-				957BDA64A400FD202C15E19DC5B37A24 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */,
-				4546B4BE904A926A49D897AC0A1A4AFA /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		0CA7BAACC8EAEAFAD4E8A10442BCDDC9 /* Pods-GAInfiniteCollectionKit-iOS_Example */ = {
-			isa = PBXGroup;
-			children = (
-				6B3BCD040CDCEAFFEBB22A989F64CE70 /* Info.plist */,
-				F7D439BE43B1D3F44105923ACDBAE857 /* Pods-GAInfiniteCollectionKit-iOS_Example.modulemap */,
-				DDAF24AC929F295072530F936C7DD6E1 /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown */,
-				1DEE7ED4FC5109500B002E4E4AE4163E /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist */,
-				CD8D07F67709428C36B44BACA579A8E0 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */,
-				65281C26BD8FFF5C8534822974B9B908 /* Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh */,
-				EB98368B6E99628F148966BC6F96B488 /* Pods-GAInfiniteCollectionKit-iOS_Example-resources.sh */,
-				2A3B5304778B00E806D05D7684566C85 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */,
-				A71811A851EDF6A0E5F1FE51863F0262 /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */,
-				A511393E3252F796F02E6AAA6681F384 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */,
-			);
-			name = "Pods-GAInfiniteCollectionKit-iOS_Example";
-			path = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example";
-			sourceTree = "<group>";
-		};
-		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
-				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		1246DAF0FC5F8B1251C8AED8A9549763 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				0274859314B0BB5274644192FFCBE6E9 /* GAInfiniteCollectionKit-iOS.podspec */,
-				CDFF6ED848A50AB05AD9FE52C47ECEFC /* LICENSE */,
-				E889F40FB031BB548809AECEE3B0A4EC /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		37ECFBC5C98465B761D0B89A42408C90 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0CA7BAACC8EAEAFAD4E8A10442BCDDC9 /* Pods-GAInfiniteCollectionKit-iOS_Example */,
-				A6C23F0003D70126678EE8E734002F10 /* Pods-GAInfiniteCollectionKit-iOS_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3F1E022E2F0980910A7D9DA2D47F1BF3 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				05E7E28DD0A51EE39D463AC0CBC5BAFC /* GAInfiniteCollectionKit-iOS */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		434AB52754E45E1DC177C8A869021D6D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				349F935EF8D48098F89F10992308987C /* GAInfiniteCollectionKit-iOS.modulemap */,
-				7C3F5C700CF126E6767A8B4DA14B1EB9 /* GAInfiniteCollectionKit-iOS.xcconfig */,
-				14E3CAB510B6E3D3FFFCB665E87CF8AE /* GAInfiniteCollectionKit-iOS-dummy.m */,
-				BECA992612E068716FD1CADBD62B768E /* GAInfiniteCollectionKit-iOS-prefix.pch */,
-				83130D56A7EB4AA31CA00B650F30C638 /* GAInfiniteCollectionKit-iOS-umbrella.h */,
-				5AEE053F0FFDF7F692B3FAC83DC7AD17 /* Info.plist */,
+				475E323B9937D679A25E9CA6867254F1 /* GAInfiniteCollectionKit-iOS.modulemap */,
+				0C17BA0FD943FAEE64C77D5D1C1285BD /* GAInfiniteCollectionKit-iOS.xcconfig */,
+				E71BC628014032F897236A19403BC9D6 /* GAInfiniteCollectionKit-iOS-dummy.m */,
+				E0507BA0A71D432CD2760318085C9948 /* GAInfiniteCollectionKit-iOS-Info.plist */,
+				FA95A44C77C8BE2CD61B840C9BA2986D /* GAInfiniteCollectionKit-iOS-prefix.pch */,
+				B052EBB6D6A01ED9DD2864A07D619175 /* GAInfiniteCollectionKit-iOS-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/GAInfiniteCollectionKit-iOS";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				3F1E022E2F0980910A7D9DA2D47F1BF3 /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				0697378E6106E4E7D0C9C715C712808F /* Products */,
-				37ECFBC5C98465B761D0B89A42408C90 /* Targets Support Files */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1C2AFFEEABFA70F8E5949BD4FB3A2020 /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				E69FB8F80F0DC73D4AC2F48A83E4C8C8 /* Products */,
+				DE395F47C7ECE75155D3966F92CDBD31 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		A6C23F0003D70126678EE8E734002F10 /* Pods-GAInfiniteCollectionKit-iOS_Tests */ = {
+		DD9D322CF1CEF89F84CB60DBE00A9067 /* Pods-GAInfiniteCollectionKit-iOS_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				277574591B72B1179EAD7081F19FA22E /* Info.plist */,
-				75628FCCD3DE9051ABE37D0E308EF4CB /* Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap */,
-				F1A1F3C7C4685B5EC1589975D966C1E3 /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown */,
-				3117309978BED2BDD74E4A65C9D96F53 /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist */,
-				9E94A9DC53824DD76E2DF8B3DD12EA4B /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */,
-				1442B6BEBF781653D7D0571B208F793D /* Pods-GAInfiniteCollectionKit-iOS_Tests-frameworks.sh */,
-				E9F9786D8F6E6BBD7424A65C902B2DBB /* Pods-GAInfiniteCollectionKit-iOS_Tests-resources.sh */,
-				F6DA6D7DBE8C61A5B6E21C406373348E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */,
-				D2148FCF68799721A65AFA16037AA494 /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */,
-				654E0DF03F4DE96E9D616DE9306B4170 /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */,
+				AC5DEDD065ABA1E3620B457FA150B6B9 /* Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap */,
+				8F72F57E5754C2EE1F2D15714E7D1BFE /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.markdown */,
+				16F9FFC7616DF79C34A7E40E319CFF8A /* Pods-GAInfiniteCollectionKit-iOS_Tests-acknowledgements.plist */,
+				23A48C7C3FE59063C4A84BE7647681F9 /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m */,
+				0E0F1FFF2E54227DC273EDAC2BD25B44 /* Pods-GAInfiniteCollectionKit-iOS_Tests-Info.plist */,
+				946E146531BD8E0742C151DE48DD231E /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h */,
+				6C23665B887355E308D81C6CD444946E /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */,
+				77D31A1305BF8DE24E996B7943E00B2D /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */,
 			);
 			name = "Pods-GAInfiniteCollectionKit-iOS_Tests";
 			path = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests";
 			sourceTree = "<group>";
 		};
+		DE395F47C7ECE75155D3966F92CDBD31 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7413746CD756BC6F0142B6AFBA22416 /* Pods-GAInfiniteCollectionKit-iOS_Example */,
+				DD9D322CF1CEF89F84CB60DBE00A9067 /* Pods-GAInfiniteCollectionKit-iOS_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		E25CE7B140D511CBB52BE9AC6EFFE2AA /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A8294EA003E6AD352305427290A4C29F /* GAInfiniteCollectionKit-iOS.podspec */,
+				D08496CFD883623DED91FEDB87ADDD83 /* LICENSE */,
+				365AFF1F156884B0707CD9DBCB9E40EB /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E69FB8F80F0DC73D4AC2F48A83E4C8C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				35029E324D37B063E65BD4F46FFB390E /* GAInfiniteCollectionKit_iOS.framework */,
+				3CC9091D3925C5840EF55CD0E96875C1 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */,
+				5A1C44D2FDFA713939033CC81BEE76B7 /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7413746CD756BC6F0142B6AFBA22416 /* Pods-GAInfiniteCollectionKit-iOS_Example */ = {
+			isa = PBXGroup;
+			children = (
+				346AA2E40B5328985043BE3FDAF14D05 /* Pods-GAInfiniteCollectionKit-iOS_Example.modulemap */,
+				49C36B98E05CA4E0C31F489ABC600397 /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.markdown */,
+				411B2D883EC298CC5C27D4C5369DA55D /* Pods-GAInfiniteCollectionKit-iOS_Example-acknowledgements.plist */,
+				EAC77EBE0AE707A135A849DCFEB05313 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m */,
+				E82568ECAF9E3E6526348D6EE8E3A18C /* Pods-GAInfiniteCollectionKit-iOS_Example-frameworks.sh */,
+				25F818DE230A5BE454955C31489F9606 /* Pods-GAInfiniteCollectionKit-iOS_Example-Info.plist */,
+				1AEB70F7B48ED07E7FDC898F06F75A75 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h */,
+				2C316176511ADB982B8AEC37250D022D /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */,
+				E561FCC12EFBC7945150DC7AEE050B12 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */,
+			);
+			name = "Pods-GAInfiniteCollectionKit-iOS_Example";
+			path = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		4692B68815955251F74BD209A3A61FEF /* Headers */ = {
+		2114B786ADEC368C699B06710895BF29 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				833736D339DBA3F0B33C7E4DC6FA02BA /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h in Headers */,
+				E0B6C1283EA82F7E58DF74FC15937B9F /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		903C0D7D57493FF659F579CF7CCA41A6 /* Headers */ = {
+		662732F632779BEF71C3E24BBA7D2BB9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4F1B49EE43B23EAFB13F06DD38AADD0 /* Pods-GAInfiniteCollectionKit-iOS_Tests-umbrella.h in Headers */,
+				C9FBEE6702FED6205F40796565FFA015 /* Pods-GAInfiniteCollectionKit-iOS_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ECC65EFA0C833518863F14B42118F0C4 /* Headers */ = {
+		9F6537E0FBBD9AA052E843A9C7F5EC49 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FDF65478F845A3821BA52114B16459B7 /* GAInfiniteCollectionKit-iOS-umbrella.h in Headers */,
+				5A56CE3826C2C05A84A374F757616BF5 /* GAInfiniteCollectionKit-iOS-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3DFB6259257421B0507D035F9BC04DA9 /* Pods-GAInfiniteCollectionKit-iOS_Example */ = {
+		25920EBF2C6A0DE2C3B19B47A1B4F782 /* Pods-GAInfiniteCollectionKit-iOS_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 20415BF71D8E9B2D6CD9CE14CA311F02 /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Example" */;
+			buildConfigurationList = 644B2BFFC51CBAA113E62BC55DF58E1B /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Tests" */;
 			buildPhases = (
-				4692B68815955251F74BD209A3A61FEF /* Headers */,
-				FE5CB72926DA5A813BA3693E3E6777D3 /* Sources */,
-				E82F399A5DCDDA01342439C8D9847679 /* Frameworks */,
-				C95A48BA017B72F494C5DB42347D2152 /* Resources */,
+				2114B786ADEC368C699B06710895BF29 /* Headers */,
+				060E7D16549681860ABCA0255E9C9035 /* Sources */,
+				075BFFE4FD49CD3603302DC7E4A96D5E /* Frameworks */,
+				2C3247724B9C6F70EAD2AA98C9548605 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				9044724236DCB5D6A7377E5D250E1EA8 /* PBXTargetDependency */,
+				046B604F4A5FE0FCC7263295EB5439D0 /* PBXTargetDependency */,
+			);
+			name = "Pods-GAInfiniteCollectionKit-iOS_Tests";
+			productName = "Pods-GAInfiniteCollectionKit-iOS_Tests";
+			productReference = 5A1C44D2FDFA713939033CC81BEE76B7 /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		996EEBBCC5340C1FB77827550E45DA42 /* Pods-GAInfiniteCollectionKit-iOS_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED030D405AC77990E3864B52DB2662EB /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Example" */;
+			buildPhases = (
+				662732F632779BEF71C3E24BBA7D2BB9 /* Headers */,
+				9947538699889A5CE2B0FC414D2BA05C /* Sources */,
+				B6E1B2DDAFA8A168366E8DEF7C1C678B /* Frameworks */,
+				380FA03F55B2525CB9571E1028E1724E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3A3D84FF3E4F2376C28D1D6CC198B576 /* PBXTargetDependency */,
 			);
 			name = "Pods-GAInfiniteCollectionKit-iOS_Example";
 			productName = "Pods-GAInfiniteCollectionKit-iOS_Example";
-			productReference = 957BDA64A400FD202C15E19DC5B37A24 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */;
+			productReference = 3CC9091D3925C5840EF55CD0E96875C1 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90861C6C9070ADB08BBD74A2CBFBB314 /* GAInfiniteCollectionKit-iOS */ = {
+		C078E18A32E97B0A0A928974468D7977 /* GAInfiniteCollectionKit-iOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3031A1F392B6AA465739E5BD8EA0387A /* Build configuration list for PBXNativeTarget "GAInfiniteCollectionKit-iOS" */;
+			buildConfigurationList = 4E7BB263F449BB82DB5BFFC2CA12E539 /* Build configuration list for PBXNativeTarget "GAInfiniteCollectionKit-iOS" */;
 			buildPhases = (
-				ECC65EFA0C833518863F14B42118F0C4 /* Headers */,
-				C942397B1E36D9958C232264AAFA8871 /* Sources */,
-				C528CC4DE6140B432AE5630FB516954B /* Frameworks */,
-				F19ED01639C3C383B9AB52103424BDD0 /* Resources */,
+				9F6537E0FBBD9AA052E843A9C7F5EC49 /* Headers */,
+				F23E4AAFD7C2DBCDD348BBFDF96130B7 /* Sources */,
+				FA114D1D82F7DECADC5854BE5D26CEF4 /* Frameworks */,
+				2ACC6B0CC60A94BDC5970DD895D3F4D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -295,72 +308,53 @@
 			);
 			name = "GAInfiniteCollectionKit-iOS";
 			productName = "GAInfiniteCollectionKit-iOS";
-			productReference = 4DE9CBFDD532A3B15F3320D2C28E2251 /* GAInfiniteCollectionKit_iOS.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		F4D9C685C0724FEC97D2227766899175 /* Pods-GAInfiniteCollectionKit-iOS_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 3359AB0C67A7161C8BBE65F141A179BD /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Tests" */;
-			buildPhases = (
-				903C0D7D57493FF659F579CF7CCA41A6 /* Headers */,
-				929E30614AF7A9528F00E2DC28AA2B26 /* Sources */,
-				EDFAA43463E0F30EE701D9360C292437 /* Frameworks */,
-				B099BC808D546BCD04948DFE658CDBEE /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				06151244B9886B11D92E025B248709A0 /* PBXTargetDependency */,
-			);
-			name = "Pods-GAInfiniteCollectionKit-iOS_Tests";
-			productName = "Pods-GAInfiniteCollectionKit-iOS_Tests";
-			productReference = 4546B4BE904A926A49D897AC0A1A4AFA /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */;
+			productReference = 35029E324D37B063E65BD4F46FFB390E /* GAInfiniteCollectionKit_iOS.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 1000;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 0697378E6106E4E7D0C9C715C712808F /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = E69FB8F80F0DC73D4AC2F48A83E4C8C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				90861C6C9070ADB08BBD74A2CBFBB314 /* GAInfiniteCollectionKit-iOS */,
-				3DFB6259257421B0507D035F9BC04DA9 /* Pods-GAInfiniteCollectionKit-iOS_Example */,
-				F4D9C685C0724FEC97D2227766899175 /* Pods-GAInfiniteCollectionKit-iOS_Tests */,
+				C078E18A32E97B0A0A928974468D7977 /* GAInfiniteCollectionKit-iOS */,
+				996EEBBCC5340C1FB77827550E45DA42 /* Pods-GAInfiniteCollectionKit-iOS_Example */,
+				25920EBF2C6A0DE2C3B19B47A1B4F782 /* Pods-GAInfiniteCollectionKit-iOS_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		B099BC808D546BCD04948DFE658CDBEE /* Resources */ = {
+		2ACC6B0CC60A94BDC5970DD895D3F4D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C95A48BA017B72F494C5DB42347D2152 /* Resources */ = {
+		2C3247724B9C6F70EAD2AA98C9548605 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F19ED01639C3C383B9AB52103424BDD0 /* Resources */ = {
+		380FA03F55B2525CB9571E1028E1724E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -370,84 +364,52 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		929E30614AF7A9528F00E2DC28AA2B26 /* Sources */ = {
+		060E7D16549681860ABCA0255E9C9035 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C32A7EF17C47BAF9B6BB01714840D0F /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m in Sources */,
+				C3A9D1617E1766FAA74C7B3FC96D2F8E /* Pods-GAInfiniteCollectionKit-iOS_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C942397B1E36D9958C232264AAFA8871 /* Sources */ = {
+		9947538699889A5CE2B0FC414D2BA05C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				68DA7A3DBF6468BB17D342E34834C03F /* GAInfiniteCollectionKit-iOS-dummy.m in Sources */,
-				189D551A4C65456C78C8C7C62CA2EB2E /* GAInfiniteScrollingBehavior.swift in Sources */,
+				D9C2C31BA54C664FED144082A6ACBABB /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FE5CB72926DA5A813BA3693E3E6777D3 /* Sources */ = {
+		F23E4AAFD7C2DBCDD348BBFDF96130B7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7B7C0717F8FB8DBF3A4282065C721A59 /* Pods-GAInfiniteCollectionKit-iOS_Example-dummy.m in Sources */,
+				7BCC439E57A8C78B25FBB48E65187842 /* GAInfiniteCollectionKit-iOS-dummy.m in Sources */,
+				FD699E6D040772C6C8F3A022CB77FCA4 /* GAInfiniteScrollingBehavior.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		06151244B9886B11D92E025B248709A0 /* PBXTargetDependency */ = {
+		046B604F4A5FE0FCC7263295EB5439D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-GAInfiniteCollectionKit-iOS_Example";
-			target = 3DFB6259257421B0507D035F9BC04DA9 /* Pods-GAInfiniteCollectionKit-iOS_Example */;
-			targetProxy = D54EB2B67A4A297711A8B46684E903CA /* PBXContainerItemProxy */;
+			target = 996EEBBCC5340C1FB77827550E45DA42 /* Pods-GAInfiniteCollectionKit-iOS_Example */;
+			targetProxy = 06CDBCFEE60C259BCC252EA8F70D06F5 /* PBXContainerItemProxy */;
 		};
-		9044724236DCB5D6A7377E5D250E1EA8 /* PBXTargetDependency */ = {
+		3A3D84FF3E4F2376C28D1D6CC198B576 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GAInfiniteCollectionKit-iOS";
-			target = 90861C6C9070ADB08BBD74A2CBFBB314 /* GAInfiniteCollectionKit-iOS */;
-			targetProxy = EFACA9AA44803ADEA010D1BEFC2D0A2F /* PBXContainerItemProxy */;
+			target = C078E18A32E97B0A0A928974468D7977 /* GAInfiniteCollectionKit-iOS */;
+			targetProxy = E9B59D75607CB336F97A9347A69A9A41 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		05DD7ACD036DF2364B6214E8C64D9C3A /* Debug */ = {
+		0354C4A4C4B2768D226FAEB91A7D8B30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3F5C700CF126E6767A8B4DA14B1EB9 /* GAInfiniteCollectionKit-iOS.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS.modulemap";
-				PRODUCT_MODULE_NAME = GAInfiniteCollectionKit_iOS;
-				PRODUCT_NAME = GAInfiniteCollectionKit_iOS;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		06F9AB5AD2D58641102D936D6CE84B68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 654E0DF03F4DE96E9D616DE9306B4170 /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */;
+			baseConfigurationReference = E561FCC12EFBC7945150DC7AEE050B12 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -459,7 +421,74 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D39FB530CFCD097F544925D11AF5480 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C316176511ADB982B8AEC37250D022D /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96279165B64502C9F0675D4F11763795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77D31A1305BF8DE24E996B7943E00B2D /* Pods-GAInfiniteCollectionKit-iOS_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Pods-GAInfiniteCollectionKit-iOS_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -479,110 +508,7 @@
 			};
 			name = Release;
 		};
-		1F7F6125244043360ACB33BB68A8E18B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A71811A851EDF6A0E5F1FE51863F0262 /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2915B5382BB6F2237FFE5884E5244E94 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D2148FCF68799721A65AFA16037AA494 /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4C9987E3F675C51AD2FEA8953BA0F5ED /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A511393E3252F796F02E6AAA6681F384 /* Pods-GAInfiniteCollectionKit-iOS_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		56A05ADD3BABDA1B56D1F979845809B1 /* Release */ = {
+		B0087CB4594321EF41619F3181FE120E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -614,8 +540,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -638,13 +562,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		8AF05FAAB0A0F9E510D2E25BFECA9000 /* Release */ = {
+		B598ACA23F1162395B4730513E5D7BAF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7C3F5C700CF126E6767A8B4DA14B1EB9 /* GAInfiniteCollectionKit-iOS.xcconfig */;
+			baseConfigurationReference = 0C17BA0FD943FAEE64C77D5D1C1285BD /* GAInfiniteCollectionKit-iOS.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -656,7 +582,7 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -666,8 +592,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -675,7 +600,7 @@
 			};
 			name = Release;
 		};
-		BEFDB93BF207328A04F1220475D02C3B /* Debug */ = {
+		B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -707,8 +632,6 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_ALLOWED = NO;
-				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -735,50 +658,116 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C1B11B7C1432A2B321565FC644BB3084 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C23665B887355E308D81C6CD444946E /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Pods-GAInfiniteCollectionKit-iOS_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Pods-GAInfiniteCollectionKit-iOS_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF6D1ED6BB1AAA96CB79E9B9D7ACA77E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C17BA0FD943FAEE64C77D5D1C1285BD /* GAInfiniteCollectionKit-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GAInfiniteCollectionKit-iOS/GAInfiniteCollectionKit-iOS.modulemap";
+				PRODUCT_MODULE_NAME = GAInfiniteCollectionKit_iOS;
+				PRODUCT_NAME = GAInfiniteCollectionKit_iOS;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		20415BF71D8E9B2D6CD9CE14CA311F02 /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Example" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				1F7F6125244043360ACB33BB68A8E18B /* Debug */,
-				4C9987E3F675C51AD2FEA8953BA0F5ED /* Release */,
+				B8BCBD0110C2658BB5DAADB9B7D97B92 /* Debug */,
+				B0087CB4594321EF41619F3181FE120E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4E7BB263F449BB82DB5BFFC2CA12E539 /* Build configuration list for PBXNativeTarget "GAInfiniteCollectionKit-iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BEFDB93BF207328A04F1220475D02C3B /* Debug */,
-				56A05ADD3BABDA1B56D1F979845809B1 /* Release */,
+				DF6D1ED6BB1AAA96CB79E9B9D7ACA77E /* Debug */,
+				B598ACA23F1162395B4730513E5D7BAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3031A1F392B6AA465739E5BD8EA0387A /* Build configuration list for PBXNativeTarget "GAInfiniteCollectionKit-iOS" */ = {
+		644B2BFFC51CBAA113E62BC55DF58E1B /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				05DD7ACD036DF2364B6214E8C64D9C3A /* Debug */,
-				8AF05FAAB0A0F9E510D2E25BFECA9000 /* Release */,
+				C1B11B7C1432A2B321565FC644BB3084 /* Debug */,
+				96279165B64502C9F0675D4F11763795 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3359AB0C67A7161C8BBE65F141A179BD /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Tests" */ = {
+		ED030D405AC77990E3864B52DB2662EB /* Build configuration list for PBXNativeTarget "Pods-GAInfiniteCollectionKit-iOS_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2915B5382BB6F2237FFE5884E5244E94 /* Debug */,
-				06F9AB5AD2D58641102D936D6CE84B68 /* Release */,
+				5D39FB530CFCD097F544925D11AF5480 /* Debug */,
+				0354C4A4C4B2768D226FAEB91A7D8B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

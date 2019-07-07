@@ -1,9 +1,9 @@
 {
   "name": "GAInfiniteCollectionKit-iOS",
-  "version": "1.0.0",
+  "version": "2.2.0",
   "summary": "Add infinite scrolling to UICollectionView",
   "description": "Add infinite scrolling to UICollectionView.",
-  "homepage": "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS",
+  "homepage": "https://github.com/Gini-Apps/GAInfiniteCollectionKit-iOS",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,13 +12,14 @@
     "idoMeirov": "idom@gini-apps.com"
   },
   "source": {
-    "git": "https://github.com/shay-somech/GAInfiniteCollectionKit-iOS.git",
-    "tag": "1.0.0"
+    "git": "https://github.com/Gini-Apps/GAInfiniteCollectionKit-iOS.git",
+    "tag": "2.2.0"
   },
-  "swift_version": "4.2",
+  "swift_versions": "5.0",
   "frameworks": "UIKit",
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "GAInfiniteCollectionKit-iOS/Classes/**/*"
+  "source_files": "GAInfiniteCollectionKit-iOS/Classes/**/*",
+  "swift_version": "5.0"
 }
