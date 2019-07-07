@@ -12,10 +12,11 @@
 		278B0E9621329E7B00549BA8 /* ForceInfiniteFalseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B0E9221329E7B00549BA8 /* ForceInfiniteFalseViewController.swift */; };
 		278B0E9721329E7B00549BA8 /* ForceInfiniteTrueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 278B0E9421329E7B00549BA8 /* ForceInfiniteTrueViewController.swift */; };
 		278B0E9921329EAF00549BA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278B0E9821329EAF00549BA8 /* Main.storyboard */; };
+		27CD6CF522D202EB00FC7B58 /* DataSourceDelegateHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CD6CF322D1F7BE00FC7B58 /* DataSourceDelegateHandler.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		607FACEC1AFB9204008FA782 /* GAInfiniteScrollingBehaviorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* GAInfiniteScrollingBehaviorTests.swift */; };
 		CF565B0804DDCEC52E05B24C /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A82A9F50607CF66C2F4D60CC /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */; };
 		D7031A0CC03B6AEC0D827B93 /* Pods_GAInfiniteCollectionKit_iOS_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3BE90C2D95D8F858EF0277C /* Pods_GAInfiniteCollectionKit_iOS_Example.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,7 @@
 		278B0E9221329E7B00549BA8 /* ForceInfiniteFalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceInfiniteFalseViewController.swift; sourceTree = "<group>"; };
 		278B0E9421329E7B00549BA8 /* ForceInfiniteTrueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceInfiniteTrueViewController.swift; sourceTree = "<group>"; };
 		278B0E9821329EAF00549BA8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		27CD6CF322D1F7BE00FC7B58 /* DataSourceDelegateHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSourceDelegateHandler.swift; sourceTree = "<group>"; };
 		3780639C309545BE7E832AE0 /* Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Example/Pods-GAInfiniteCollectionKit-iOS_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* GAInfiniteCollectionKit-iOS_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GAInfiniteCollectionKit-iOS_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,7 +47,7 @@
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* GAInfiniteCollectionKit-iOS_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GAInfiniteCollectionKit-iOS_Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		607FACEB1AFB9204008FA782 /* GAInfiniteScrollingBehaviorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAInfiniteScrollingBehaviorTests.swift; sourceTree = "<group>"; };
 		A82A9F50607CF66C2F4D60CC /* Pods_GAInfiniteCollectionKit_iOS_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GAInfiniteCollectionKit_iOS_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE42831EDDBC8AB91D19C046 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C133C7E515AF86EE91679BD9 /* GAInfiniteCollectionKit-iOS.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = "GAInfiniteCollectionKit-iOS.podspec"; path = "../GAInfiniteCollectionKit-iOS.podspec"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -171,7 +173,8 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				607FACEB1AFB9204008FA782 /* GAInfiniteScrollingBehaviorTests.swift */,
+				27CD6CF322D1F7BE00FC7B58 /* DataSourceDelegateHandler.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -391,7 +394,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				27CD6CF522D202EB00FC7B58 /* DataSourceDelegateHandler.swift in Sources */,
+				607FACEC1AFB9204008FA782 /* GAInfiniteScrollingBehaviorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

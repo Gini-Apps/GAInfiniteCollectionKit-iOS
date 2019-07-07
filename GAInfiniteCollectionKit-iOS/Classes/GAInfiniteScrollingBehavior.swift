@@ -145,7 +145,7 @@ public class GAInfiniteScrollingBehavior: NSObject
     
     private func shouldEnableInfiniteScroll(collectionView: UICollectionView) -> Bool
     {
-        guard let delegate = delegate else { isInfiniteScrolling = false ; return isInfiniteScrolling}
+        guard let delegate = delegate else { isInfiniteScrolling = false ; return isInfiniteScrolling }
         var contentSizeWidth = CGFloat(0.0)
         let collectionViewWidth = collectionView.frame.width
         
