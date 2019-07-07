@@ -32,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		042F8CF18EF07ECF7CB9C1A9 /* Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GAInfiniteCollectionKit-iOS_Tests/Pods-GAInfiniteCollectionKit-iOS_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		27546AE022D1C39F0025C79C /* GAInfiniteCollectionKit */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GAInfiniteCollectionKit; sourceTree = "<group>"; };
 		278B0E8C21329E6E00549BA8 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 		278B0E9021329E7B00549BA8 /* CancelInfiniteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelInfiniteViewController.swift; sourceTree = "<group>"; };
 		278B0E9221329E7B00549BA8 /* ForceInfiniteFalseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceInfiniteFalseViewController.swift; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				27546AE022D1C39F0025C79C /* GAInfiniteCollectionKit */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for GAInfiniteCollectionKit-iOS */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -283,6 +285,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
